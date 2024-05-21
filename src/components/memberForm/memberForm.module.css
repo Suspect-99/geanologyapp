@@ -1,0 +1,9 @@
+.formhead{
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+.backgroundedit{
+    background: url(backimage.jpg);
+    background-size: cover;
+}

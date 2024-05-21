@@ -1,0 +1,92 @@
+.initiall{
+    background-color: rgb(187, 187, 187);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.initiallwrapper{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 3px 5px 5px #ccc;
+}
+
+/* left side design of sign up page  */
+
+.signupleft{
+    width: 60%;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background: url(./family.jpg);
+    background-size: contain;
+    opacity: 80%;
+}
+
+.signupright{
+    height: 100%;
+    width: 30%;
+    margin: 0 auto;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+/* signup design */
+.signupheader{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+.signupformdesign label{
+    font-size: medium;
+    font-weight: 600;
+}
+.signupformdesign input{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    outline: none;
+}
+
+.signupfooter{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.signupfooter p{
+    font-size: small;
+    text-align: center;
+}
+
+.submitbtn{
+    width: 100%;
+    margin: 15px auto;
+    background-color: rgb(42, 42, 242);
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.submitbtn:hover{
+    background-color: blue;
+    padding: 8px;
+    box-shadow: 2px 3px 5px #757575;
+    animation-duration: 500ms;
+    transition: 500ms;
+}

@@ -1,0 +1,194 @@
+.main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    max-width: 1200px;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* overflow-x: hidden; */
+    
+}
+
+.navbar{
+    background-color: rgb(0, 149, 255);
+    box-shadow: 2px 4px 5px #ccc;
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+
+.hamburgerbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+}
+
+.apptitle{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.username{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.username h2{
+    padding:0 3px;
+    padding-bottom: 8px;
+}
+
+/* body of the website css design  */
+
+.bodystyle{
+    height: 50%;
+    width: 100%;
+    background: url(background.jpg);
+    background-size: cover;
+    opacity: 90%;
+    margin-top: 5px;
+    display: flex;
+
+}
+
+.bodystyleleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    margin: 0 10px;
+    margin-top: 5px;
+    color: white;
+}
+
+.leftwrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bodystyleleft h1{
+   text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.bodystyleleft p{
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 2px 3px 5px #ccc;
+}
+
+.bodystyleright{
+    width: 30%;
+    height: 100%;
+    background: url(people.png);
+    background-size: contain;
+}
+
+/* family button adding slide  */
+
+.familyslide{
+    width: 100%;
+    margin: 10px;
+}
+
+.familywrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+  
+}
+
+.leftfamilywrapper{
+    width: 45%;
+    margin: 0 auto;
+    background-color: rgb(0, 149, 255);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+.lefttab button{
+    border: none;
+    border-radius: 20px;
+    background-color: aqua;
+    color:white;
+    font-size: medium;
+    padding: 6px 10px;
+    margin: 3px;
+}
+
+.lefttab button:hover{
+    padding: 8px;
+    background-color: rgb(4, 126, 214);
+    transition: 500ms;
+    animation-duration: 500ms;
+}
+
+.lefttab{
+    width: 100%;
+    display: inline-block;
+    font-size: small;
+    text-align: center;
+    color: white;
+}
+
+.rightfamilywrapper{
+    width: 45%;
+    margin: 0 auto;
+    background-color: rgb(0, 149, 255);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.righttab{
+    width: 100%;
+    display: inline-block;
+    font-size: small;
+    text-align: center;
+    color: white;
+}
+
+.righttab button{
+    border: none;
+    border-radius: 20px;
+    background-color: aqua;
+    color:white;
+    font-size: medium;
+    padding: 6px 6px;
+    margin: 3px;
+}
+
+.righttab button:hover{
+    padding: 8px;
+    background-color: rgb(4, 126, 214);
+    transition: 500ms;
+    animation-duration: 500ms;
+}
+
+
+.logoimg{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedit{
+    color: white;
+    text-decoration: none;
+}
+/* footer design  */
